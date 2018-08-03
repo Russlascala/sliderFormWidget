@@ -263,6 +263,21 @@ body, .action-button {
 
 /* End form styles */
 
+/* Content 2 styles */
+#contentTwo{
+    color: white;
+    text-align: center;
+    background: #666;
+    margin-top: 20px;
+}
+#contentTwo h2{
+    text-decoration: underline;
+}
+
+.icons{
+    font-size: 50px;
+}
+
 
 /* Responsive Css */
 /* Extra small devices (phones, 600px and down) */
