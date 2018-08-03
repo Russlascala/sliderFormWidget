@@ -12,15 +12,17 @@ $('#ex1').slider({
 /* END Script for the Slider value  */
 
 /* Script to show tooltip on click so it shows on mobile  */
-$('.tooltip').on({
+/* $('.tooltip').on({
     "click": function () {
         $(this).tooltip("open");
     },
     "mouseout": function () {
         $(this).tooltip("disable");
     }
+}); */
+$(".tooltip").click(function () {
+    $(this).tooltip("open");
 });
-
 
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
