@@ -44,14 +44,20 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <form id="msform" name="add">
-                    
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li class="active">Debt Amount</li>
+                        <li>Debt Type</li>
+                        <li>Overdue Period</li>
+                        <li>Your Information</li>
+                    </ul>
                     <!-- fieldsets slider for debt amount -->
                     <fieldset>
                         <h2 class="fs-title">Choose your Debt Amount</h2>
                         <!-- <h3 class="fs-subtitle">Tell us something more about you</h3> -->
                         <div class="form-group col-12" id="sliderStyle">
                             <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1000" data-slider-max="100000" data-slider-step="1000"
-                                data-slider-value="14" />
+                                data-slider-value="4000" />
                                 <div class="sliderShownValues">
                                     <p class="pull-left"> $1,000</p> <p class="pull-right">$100,000+</p>
                                 </div>
@@ -123,13 +129,7 @@
                         <!-- <input type="button" name="next" class="next action-button" value="Next" /> -->
                         <input type="button" name="submit" class="submit action-button" value="Submit" />
                     </fieldset>
-                    <!-- progressbar -->
-                    <ul id="progressbar">
-                        <li class="active">Debt Amount</li>
-                        <li>Debt Type</li>
-                        <li>Overdue Period</li>
-                        <li>Your Information</li>
-                    </ul>
+                    
                 </form>
                 
             </div>
