@@ -1,28 +1,21 @@
-/* Script for the Slider value  */
-$('#ex1').slider({
+/* Script to always show tooltip and do it with prover commas  */
+// With JQuery
+$("#ex1").slider({
+    tooltip: 'always',
     formatter: function (value) {
-        if (value === 100000) {
-            return '$' + value.toLocaleString('en') + '+';
+        if (value === 101000) {
+            return '$100,000+';
         }
         else {
             return '$' + value.toLocaleString('en');
         }
     }
 });
+
+
+
 /* END Script for the Slider value  */
 
-/* Script to show tooltip on click so it shows on mobile  */
-/* $('.tooltip').on({
-    "click": function () {
-        $(this).tooltip("open");
-    },
-    "mouseout": function () {
-        $(this).tooltip("disable");
-    }
-}); */
-$(".tooltip").click(function () {
-    $(this).tooltip("open");
-});
 
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
