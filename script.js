@@ -11,6 +11,17 @@ $('#ex1').slider({
 });
 /* END Script for the Slider value  */
 
+/* Script to show tooltip on click so it shows on mobile  */
+$('.tooltip').on({
+    "click": function () {
+        $(this).tooltip("open");
+    },
+    "mouseout": function () {
+        $(this).tooltip("disable");
+    }
+});
+
+
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
