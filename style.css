@@ -278,6 +278,10 @@ body, .action-button {
     font-size: 50px;
 }
 
+.threeStep{
+    padding-top: 15px;
+}
+
 
 /* Responsive Css */
 /* Extra small devices (phones, 600px and down) */
@@ -292,6 +296,11 @@ body, .action-button {
         margin: 0;
         width: 100%;
     }
+
+    .threeStep{
+        padding-top: 25px;
+    }
+
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
