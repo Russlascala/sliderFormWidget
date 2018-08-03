@@ -8,31 +8,32 @@
 /* top bar section */
 
 #logoImg{
-    width:170px;
+    width:200px;
 }
 .topBarTxt{
     background: #2271a9;
 }
-
+#phoneTop{
+    /* 00344D */
+    color: #00344D!important;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
 #sloganOne{
     text-align: center;
     color: #fff;
     padding-bottom:5px;
     padding-top: 5px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom:0;
     margin-top: 0!important;
 }
 
-#phoneTop{
-    /* 00344D */
-    color: #00344D;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
-    margin-top: 20px;
-}
+
 
 .centerImg{
     display: block;
@@ -92,7 +93,7 @@ html {
 
 body, .action-button {
    /*  font-family: Montserrat, arial, verdana; */
-   font-family: Montserrat, arial, verdana;
+   font-family: Roboto, arial, verdana;
     background: transparent;
 }
 
@@ -303,9 +304,9 @@ body, .action-button {
 }
 /* Content 2 two styles */
 #contentTwo{
-    color: white;
+    color: #4c4c4c;
     text-align: center;
-    background: #666;
+    background: #fff;
     margin-top: 20px;
 }
 #contentTwo h2, #contentThree h2{
@@ -330,7 +331,7 @@ body, .action-button {
 /* Content 4 four styles */
 #contentFour{
    text-align: center; 
-   background: #BABABA;
+   background: #fff;
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -366,7 +367,7 @@ footer{
     color: white;
 }
 
-footer, a{
+footer a{
     padding-right: 5px;
     padding-left: 5px;
     color: #E6F4F1;
