@@ -8,7 +8,7 @@
 /* top bar section */
 
 #logoImg{
-    width:40%;
+    width:170px;
 }
 .topBarTxt{
     background: #2271a9;
@@ -77,7 +77,7 @@ html {
 
 body, .action-button {
    /*  font-family: Montserrat, arial, verdana; */
-   font-family: Raleway, arial, verdana;
+   font-family: Montserrat, arial, verdana;
     background: transparent;
 }
 
