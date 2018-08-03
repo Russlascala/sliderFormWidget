@@ -34,9 +34,24 @@
     margin-top: 20px;
 }
 
+.centerImg{
+    display: block;
+    margin: 0 auto;
+}
+
 /* My code form slider and form  */
+
+.tooltip-inner{
+    font-size: 17px;
+}
 #ex1Slider .slider-selection {
-        background: linear-gradient(to right, rgba(154,187,214,1) 0%,rgba(41,137,216,1) 33%,rgba(224,0,3,1) 100%);
+    background: linear-gradient(to right, rgba(154,187,214,1) 0%,rgba(41,137,216,1) 33%,rgba(224,0,3,1) 100%);
+    background: rgb(154,187,214);
+    background: -moz-linear-gradient(left, rgba(154,187,214,1) 0%, rgba(41,137,216,1) 33%, rgba(224,0,3,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(154,187,214,1) 0%,rgba(41,137,216,1) 33%,rgba(224,0,3,1) 100%);
+    background: linear-gradient(to right, rgba(154,187,214,1) 0%,rgba(41,137,216,1) 33%,rgba(224,0,3,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9abbd6', endColorstr='#e00003',GradientType=1 );
+    position: absolute;
 }
 .slider-track-high {
     background: #BABABA; 
@@ -239,6 +254,14 @@ body, .action-button {
     color: white;
 }
 
+#secureLogos{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:80%;
+}
 
 /* Not relevant to this form */
 .dme_link {
@@ -262,15 +285,30 @@ body, .action-button {
 }
 
 /* End form styles */
-
-/* Content 2 styles */
+/* Call to action button  */
+.ctaBtn{
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    background: #008952; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 100px;
+    font-family: Arial;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
+/* Content 2 two styles */
 #contentTwo{
     color: white;
     text-align: center;
     background: #666;
     margin-top: 20px;
 }
-#contentTwo h2{
+#contentTwo h2, #contentThree h2{
     text-decoration: underline;
 }
 
@@ -280,8 +318,74 @@ body, .action-button {
 
 .threeStep{
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+/* Content 3 three styles */
+#contentThree {
+    background: #2271a9;
+    color: #fff;
+    text-align: center;
+}
+/* Content 4 four styles */
+#contentFour{
+   text-align: center; 
+   background: #BABABA;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.ctaTxt{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+/* Footer Logo and links */
+/* footer */
+/*   five section */
+#sectionFive{
+    background-color: #4b4b4b;
+   
+}
+
+/* footer */
+#footerLogo{
+    width:20%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.lineFade{ 
+    height:1px;
+    background: #4b4b4b;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#333333), to(#333333), color-stop(50%, #35b5d2));
+}
+
+footer{
+    background-color: #4b4b4b;
+    color: white;
+}
+
+footer, a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #E6F4F1;
+}
+footer a:hover{
+    color: #81C4FD;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+
+
+/*   end footer section */
 
 /* Responsive Css */
 /* Extra small devices (phones, 600px and down) */
@@ -297,8 +401,21 @@ body, .action-button {
         width: 100%;
     }
 
+    .ctaBtn{
+        width: 200px;
+        font-size: 120%;
+        line-height: 75px;
+        font-family: Arial;
+        margin-bottom:15px; 
+        margin-top:15px; 
+    }
+
     .threeStep{
         padding-top: 25px;
+    }
+
+    .ctaTxt{
+        width: 100%;
     }
 
 }
@@ -309,7 +426,9 @@ body, .action-button {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    #btnOne{
+        display: none;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
