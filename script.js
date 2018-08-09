@@ -1,4 +1,4 @@
-/* Script to always show tooltip and do it with prover commas  */
+/* Script to always show tooltip and do it with proper commas  */
 // With JQuery
 $("#ex1").slider({
     tooltip: 'always',
@@ -84,6 +84,8 @@ $(".previous").click(function () {
             opacity = 1 - now;
             current_fs.css({ 'left': left });
             previous_fs.css({ 'transform': 'scale(' + scale + ')', 'opacity': opacity });
+            // Added to adjust for the error for previous button going above Content
+            $('#widgetForm').css('height', '520px');
         },
         duration: 800,
         complete: function () {
@@ -96,7 +98,7 @@ $(".previous").click(function () {
 });
 
 $(".submit").click(function () {
-    alert('Thank You! Someone will be in touch with you soon.');
+    alert('OOPS ERROR! This is just a demo site.');
     /* return false; */
 })
 
