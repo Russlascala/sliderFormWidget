@@ -1,19 +1,18 @@
-/* Script to always show tooltip and do it with proper commas  */
-// With JQuery
-$("#ex1").slider({
-    tooltip: 'always',
-    formatter: function (value) {
-        if (value === 101000) {
-            return '$100,000+';
-        }
-        else {
-            return '$' + value.toLocaleString('en');
-        }
-    }
-});
-/* END Script for the Slider value  */
-
 $(document).ready(function () {
+    /* Script to always show tooltip and do it with proper commas  */
+    // With JQuery
+    $("#ex1").slider({
+        tooltip: 'always',
+        formatter: function (value) {
+            if (value === 101000) {
+                return '$100,000+';
+            }
+            else {
+                return '$' + value.toLocaleString('en');
+            }
+        }
+    });
+    /* END Script for the Slider value  */
 
 
     //jQuery time for the form steps
